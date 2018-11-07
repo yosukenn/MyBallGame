@@ -21,11 +21,4 @@ public class BallFactoryScript : MonoBehaviour {
 	void Update () {
 		
 	}
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Paddle")) {
-            Destroy(gameObject);
-        }
-    }
 }
